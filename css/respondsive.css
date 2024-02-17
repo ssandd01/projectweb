@@ -1,0 +1,82 @@
+@media only screen and (min-width: 1024px){
+    .hamburger{
+        display: none;
+    }
+
+    .respondsive-menu{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .menu{
+        display: none;
+    }
+
+    .logo p{
+        margin-top: 10px;
+        margin-left: 4px;
+    }
+
+    .nav-wrapper{
+        margin: 1rem 1rem;
+    }
+
+    .texthead {
+        font-size: 50px;
+        padding-top: 100px;
+        text-align: center;
+    }
+
+    .imghead{
+        background-image: url(/img/miyagi-top-attractions-in-miyagi-151388.jpg);
+        width: 100%;
+    }
+    .content {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    img{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+
+    .menu{
+        display: none;
+    }
+    
+    .logo p{
+        margin-top: 10px;
+        margin-left: 4px;
+    }
+
+    .nav-wrapper{
+        margin: 1rem 1rem;
+    }
+    .texthead {
+        font-size: 60px;
+        padding-top: 100px;
+    }
+
+    .imghead{
+        background-image: url(/img/miyagi-top-attractions-in-miyagi-151388.jpg);
+        width: auto;
+    }
+
+    img{
+        height: 450px;
+        width: 100%;
+    }
+
+    .content {
+        font-size: 30px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+
