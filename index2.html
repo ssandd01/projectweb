@@ -1,12 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="ph.prapavairn_st@tni.ac.th">
     <meta name="keyword" content="miyagi, japan, city, sendai">
+    <link rel="shortcut icon" href="./img/fuji.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Travel in Miyagi</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/respondsive.css">
+    <script src="/js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -14,20 +20,247 @@
             <div class="container">
                 <div class="nav-wrapper">
                     <div class="logo logotext"><p>Travel in Miyagi</p></div>
-                    <ul class="menu">
+                    <ul class="menu" id="myMenu">
                         <li><a href="index.html">About</a></li>
                         <li><a href="index2.html">Travel</a></li>
                         <li><a href="index3.html">Food</a></li>
                         <li><a href="index4.html">Culture</a></li>
                     </ul>
+                    <button class="hamburger">
+                        <div class="bar"></div>
+                    </button>
                 </div>
             </div>
         </nav>
     </header>
+    <nav class="respondsive-menu">
+        <h1>Menu</h1>
+        <a href="index.html">About</a>
+        <a href="index2.html">Travel</a>
+        <a href="index3.html">Food</a>
+        <a href="index4.html">Culture</a>
+    </nav>
     <div>
-        <div class="img1">
+        <div class="imghead" style="background-image: url(/img/travel.jpeg);">
             <div class="text1 texthead">
-                Miyagi Prefecture
+                Travel Attraction
             </div>
         </div>
     </div>
+
+    <section>
+        <div>
+            <h1 id="box1">Aoba Castle Ruins</h1>
+            <img class="img1" src="img/aoba.jpg" alt="">
+            <p class="content font"><strong>ปราสาทอาโอบะ (Aoba Castle Ruins)</strong> หรือ <strong>ปราสาทเซนได (Sendai Castle) </strong> เป็นพื้นที่แสดงส่วนที่ยังคงเหลืออยู่ของปราสาทอาโอบะ ซึ่งเป็นปราสาทที่สร้างขึ้นในปี 1600 โดยดาเตะ มาซามุเนะ (Date Masamune) 
+            ไดเมียวผู้โด่งดังในยุคเซนโกคุและผู้ปกครองเมืองเซนไดที่มีอำนาจมากที่สุดในสมัยเอโดะ</p>
+            <p class="content font">ปราสาทอาโอบะนั้นสร้างขึ้นโดยมีจุดประสงค์เพื่อป้องกันเมืองบนภูเขาอาโอบะ 
+                ซึ่งมีความสูง 100 เมตรจากเมืองด้านล่าง โชคไม่ดีเท่าไหร่ที่ปราสาทถูกทำลายลงจากผลกระทบของสงครามโลกครั้งที่ 2 
+                ปัจจุบันปราสาทแห่งนี้จึงเหลือเพียงเศษซากกำแพงหินด้านนอกและหอรักษาความปลอดภัย</p>
+            <img src="img/37e7ada2d70992b6462f71570c61a1cd7a8ab4fe.jpg" alt="" class="img1">
+            <p class="content font">อย่างไรก็ตาม แม้ว่าตัวปราสาทจะไม่มีอยู่แล้ว แต่จากที่ตั้งปราสาทเดิมเราสามารถมองเห็นทิวทัศน์ที่สวยงามของเมืองเซนไดได้ 
+                และยังมีดอกซากุระให้ชมในช่วงฤดูใบไม้ผลิด้วย (สำหรับนักท่องเที่ยวสายความรู้ มีพิพิธภัณฑ์ที่บอกเล่าประวัติความเป็นมาของปราสาทแห่งนี้ด้วยนะ)</p>
+        </div>
+        <div class="content">
+            <button class="hiddeninfo-decor info-btn">Look Info</button>
+            <div style="display: none;" class="font hiddeninfo">
+                <h4 class="infodecor">Location :</h4>
+                <ul type="none">
+                    <li><a class="linkinfo" href="https://maps.app.goo.gl/F8QM3MPZhTp1BGBd7" target="_blank">1 คาวาอุจิ, เขตอาโอบะ, เมืองเซนได, จังหวัดมิยางิ, ประเทศญี่ปุ่น 980-0862 </a></li>
+                </ul>
+                <h4 class="infodecor">How to Travel :</h4>
+                <ul type="none">
+                    <li><strong>รถบัส :</strong> ในวันเสาร์ อาทิตย์ และวันหยุดนักขัตฤกษ์เท่านั้น รถบัสมิยาโกะระหว่างชิราอิชิซาโอะและโทกัตตะออนเซ็นจะขยายไปถึงยอดภูเขาคัทตะ (ปล่องโอกามะ)</li>
+                    <li><strong>รถยนต์ :</strong> ประมาณ 65 นาที จากทางแยกต่างระดับ Murata บนทางด่วน Tohoku Expressway</li>
+                </ul>
+                <h4 class="infodecor">Contact :</h4>
+                <ul type="none">
+                    <li>022-354-2023</li>
+                </ul>
+                <h4 class="infodecor">Hours :</h4>
+                <ul type="none">
+                    <li><strong>สวน :</strong> เปิดให้เข้าชมทุกวัน ตลอดเวลา</li>
+                    <li><strong>พิพิธภัณฑ์ :</strong> เปิดทำการทุกวัน ในเวลา 9:00 - 17:00 น. (ช่วงเดือนพฤศจิกายนถึงเดือนมีนาคม เปิดถึงเวลา 16:00 น.)</li>
+                </ul>
+                <h4 class="infodecor">Entrance Fee :</h4>
+                <ul type="none">
+                    <li><strong>สวน : </strong>ไม่มีค่าเข้าชม</li>
+                    <li><strong>พิพิธภัณฑ์ : </strong>ค่าเข้าชม 700 เยน</li>
+                </ul>
+                <h4 class="infodecor"></h4>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <h1 id="box1">Zuihoden Mausoleum</h1>
+            <img class="img1" src="img/C.Lotongkum_Shutterstock.jpg" alt="">
+            <p class="content font"><strong>สุสานซุยโฮเด็น (Zuihoden Mausoleum) </strong> เป็นสุสานของไดเมียว ‘ดาเตะ มาซามุเนะ’ (Date Masamune) 
+                อาคารสุสานได้รับการออกแบบในสไตล์หรูหราในช่วงยุคโมโมยามะ ซึ่งโครงสร้างหลักเป็นงานไม้สีดำที่ตกแต่งด้วยการแกะสลักและทาสีสันสดใส</p>
+            <p class="content font">ส่วนทางเดินภายในพื้นที่ของสุสานนั้นล้อมรอบไปด้วยป่าไม้สนซีดาร์ ซึ่งเป็นสัญลักษณ์ของประวัติศาสตร์อันยาวนานของตระกูลดาเตะ 
+                (อาคารที่เห็นในปัจจุบันเป็นการบูรณะสร้างใหม่ เพราะอาคารเดิมถูกทำลายลงในช่วงสงครามโลกครั้งที่ 2)</p>
+            <img src="img/shutterstock_711771790.jpg" alt="" class="img1">
+            <p class="content font">สุสานถูกสร้างขึ้นตามความประสงค์ของมาซามุเนะ ดาเตะ ผู้ก่อตั้งตระกูลเซนได อาคารปัจจุบันถูกสร้างขึ้นใหม่ในปี 1979 
+                ตามแบบจำลองของซุยโฮเด็น ก่อนที่มันจะถูกทำลายด้วยไฟในสงคราม หัวสิงโตที่แกะสลักบนเสาและกระเบื้องหัวมังกรบนหลังคาได้รับการบูรณะใหม่ 
+                สื่อถึงสไตล์ที่หรูหราและงดงามของวัฒนธรรมโมโมยามะ ห้องโถงคันเซ็น-เด็นที่สร้างโดยดาเตะทาดามุเนะลอร์ดคนที่สอง และห้องโถงเซ็นโนะ-เด็นซึ่งสร้างโดยผู้ปกครองคนที่สาม 
+                ดาเตะ สึนะมุเนะก็ตั้งอยู่บนพื้นที่เดียวกัน</p>
+        </div>
+        <div class="content">
+            <button class="hiddeninfo-decor info-btn">Look Info</button>
+            <div style="display: none;" class="font hiddeninfo">
+                <h4 class="infodecor">Location :</h4>
+                <ul type="none">
+                    <li><a class="linkinfo" href="https://maps.app.goo.gl/bR1YMssmbXKTEBRs9" target="_blank">23 โอทะมะยาชิตะ, เขตอาโอบะ, เมืองเซนได, จังหวัดมิยางิ, ประเทศญี่ปุ่น 980-0814 </a></li>
+                </ul>
+                <h4 class="infodecor">How to Travel :</h4>
+                <ul type="none">
+                    <li><strong>รถไฟและรถประจำทาง : </strong>จากสถานี Sendai บนสาย Tohoku Shinkansen และ JR ขึ้นรถบัส Loople Sendai ไปลงที่ป้าย Zuihoden-mae และเดินต่อประมาณ 10 นาทีไปยังจุดหมายของคุณ</li>
+                    <li><strong>รถยนต์ : </strong> ประมาณ 15 นาทีจากทางแยกต่างระดับ Sendai-Miyagi บนทางด่วน Tohoku Expressway</li>
+                </ul>
+                <h4 class="infodecor">Contact :</h4>
+                <ul type="none">
+                    <li>022-262-6250</li>
+                </ul>
+                <h4 class="infodecor">Hours :</h4>
+                <ul type="none">
+                    <li>เปิดให้เข้าชมทุกวัน 9:00 - 16:50 น.</li>
+                </ul>
+                <h4 class="infodecor">Entrance Fee :</h4>
+                <ul type="none">
+                    <li><strong>ผู้ใหญ่ : </strong>550 เยน</li>
+                    <li><strong>นักเรียนมัธยมปลาย : </strong>400 เยน</li>
+                    <li><strong>นักเรียนมัธยมต้นและนักเรียนประถม : </strong>200 เยน</li>
+                </ul>
+                <h4 class="infodecor"></h4>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <h1 id="box1">Entsuin Temple</h1>
+            <img class="img1" src="img/retouch1698-1-of-1.jpg" alt="">
+            <p class="content font"><strong>วัดเอ็นสึอิน (Entsuin Temple) </strong>เป็นวัดที่สร้างขึ้นข้างๆกันกับวัดซุยกันจิในปี 1647 โดยมีจุดประสงค์เพื่อให้เป็นสุสานของ ดาเตะ 
+                มิทสึมุเนะ หลานของไดเมียวดาเตะ มาซามุเนะที่เสียชีวิตตั้งแต่อายุยังน้อย คือ 19 ปีเท่านั้น</p>
+                <p class="content font">และเนื่องจากเป็นวัดที่สร้างขึ้นเพื่อเป็นสุสานของผู้ที่เสียชีวิตตั้งแต่อายุยังน้อย 
+                วัดเอ็นสึอินจึงเป็นที่ประดิษฐานของพระโพธิสัตว์เจ้าแม่กวนอิม ผู้เป็นสัญลักษณ์แห่งเมตตา เพื่อให้วิญญาณของผู้วายชนม์ได้รับความเมตตาในโลกหน้า</p>
+            <img src="img/retouch1709-1-of-1.jpg" alt="" class="img1">
+            <p class="content font">จุดเด่นของวัดแห่งนี้คือสวนหิน เนื่องด้วยการจัดหินและมอสภายในสวนแห่งนี้มีเอกลักษณ์อยู่ที่การใช้อ่าวมัตสึชิมะเป็นต้นแบบ</p>
+            <img src="img/retouch1708-1-of-1.jpg" alt="" class="img1">
+            <p class="content font">นอกจากที่นี่จะวิวสวยแล้ว สำหรับสายมูที่ชอบกำไลข้อมือ นอกจากจะมีกำไลขายตามที่เห็นในภาพแล้ว 
+                ที่นี่ก็ยังสอนร้อยกำไลให้กับผู้ที่สนใจอีกด้วย โดยจะมีการอธิบายตั้งแต่วิธีร้อยหินและประเภทของหิน เช่น หินแต่ละแบบมีพลังอะไรบ้าง เป็นต้น</p>
+            <img src="img/retouch1763-1-of-1.jpg" alt="" class="img1">
+            <p class="content font">ในฤดูใบไม้ผลิ วัดเอ็นทสึอินจะมีการประดับไฟไลท์อัพในเวลากลางคืน ความงามของใบไม้เปลี่ยนสีเล่นแสงไฟยามค่ำคืนนั้นเกินจะบรรยาย
+                อีกทั้งยังมีมุมให้ได้ลองประดิษฐ์ลูกประคำอีกด้วย (มีค่าใช้จ่ายเพิ่มเติม)</p>
+        </div>
+        <div class="content">
+            <button class="hiddeninfo-decor info-btn">Look Info</button>
+            <div style="display: none;" class="font hiddeninfo">
+                <h4 class="infodecor">Location :</h4>
+                <ul type="none">
+                    <li><a class="linkinfo" href="https://maps.app.goo.gl/5PX2HwnoxM4744Dg8" target="_blank">67 มัตสึชิมะ, เขตมิยางิ, เมืองมัตสึชิมะ, จังหวัดมิยางิ, ประเทศญี่ปุ่น 981-0213 </a></li>
+                </ul>
+                <h4 class="infodecor">How to Travel :</h4>
+                <ul type="none">
+                    <li><strong>รถไฟและรถประจำทาง : </strong>จากสถานี JR Sendai ขึ้นรถไฟไปลงที่สถานี Matsushima Kaigan แล้วเดินต่อจากสถานีไปที่วัดโดยใช้เวลาอีกประมาณ 10 นาที</li>
+                </ul>
+                <h4 class="infodecor">Contact :</h4>
+                <ul type="none">
+                    <li>022-354-3206</li>
+                </ul>
+                <h4 class="infodecor">Hours :</h4>
+                <ul type="none">
+                    <li><strong>วันธรรมดา : </strong> 9:00 - 15:30 น.</li>
+                    <li><strong>วันเสาร์ / วันอาทิตย์ / วันหยุดนักขัตฤกษ์ : </strong> 9:00 - 16:30 น.</li>
+                </ul>
+                <h4 class="infodecor">Entrance Fee :</h4>
+                <ul type="none">
+                    <li><strong>ตอนกลางวัน : </strong> 300 เยน</li>
+                    <li><strong>เปิดไฟตอนกลางคืนมีค่าเข้าชม : </strong> 500 เยน</li>
+                </ul>
+                <h4 class="infodecor"></h4>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <h1 id="box1">Fukuurajima Island</h1>
+            <img class="img1" src="img/island.jpg" alt="">
+            <p class="content font"><strong>เกาะฟุคุอุระจิมะ (Fukuurajima Island) </strong>เป็นเกาะเล็กๆใน ‘จังหวัดมิยากิ’ ที่สามารถใช้เวลาเดินชมได้ภายใน 2 ชั่วโมง 
+                โดยพื้นที่ส่วนใหญ่ของเกาะจะอยู่ในรูปแบบของสวนสาธารณะ ซึ่งเป็นสวนพฤกษศาสตร์ธรรมชาติที่มีต้นไม้ ดอกไม้ และพืชต่างๆอยู่กว่า 300 ชนิด 
+                อีกทั้งยังมีจุดชมทัศนียภาพอันงดงามตลอดแนวทางเดิน จุดเด่นของเกาะแห่งนี้คือสะพานฟุคุอุระบาชิ สะพานสีแดงสดยาว 252 เมตรที่พาดจากแผ่นดินใหญ่ไปสู่ตัวเกาะ</p>
+            <img src="img/111.jpg" alt="" class="img1">
+            <img src="img/fff.jpg" alt="" class="img1">
+            <p class="content font">บนเกาะฟุคุอุระจิมะมีจุดชมวิวอยู่มากมาย แต่ละจุดจะมีป้ายบรรยายไว้ด้วยว่าเกาะต่างๆที่เราเห็นนั้นมีความเป็นมาอย่างไรบ้าง</p>
+        </div>
+        <div class="content">
+            <button class="hiddeninfo-decor info-btn">Look Info</button>
+            <div style="display: none;" class="font hiddeninfo">
+                <h4 class="infodecor">Location :</h4>
+                <ul type="none">
+                    <li><a class="linkinfo" href="https://maps.app.goo.gl/t12ds2YtCG1yD8Ux7" target="_blank">39-1 มัตสึชิมะ, เขตมิยางิ, เมืองมัตสึชิมะ, จังหวัดมิยางิ, ประเทศญี่ปุ่น 981-0213 </a></li>
+                </ul>
+                <h4 class="infodecor">How to Travel :</h4>
+                <ul type="none">
+                    <li><strong>รถไฟและรถประจำทาง : </strong>จากสถานี JR Sendai ให้ขึ้นรถไฟไปลงที่สถานี Matsushima Kaigan แล้วเดินต่อจากสถานีไปอีกประมาณ 15 นาที และนั่งเรือต่อไปที่เกาะฟุคุอุระจิมะ</li>
+                </ul>
+                <h4 class="infodecor">Contact :</h4>
+                <ul type="none">
+                    <li>022-354-3457</li>
+                </ul>
+                <h4 class="infodecor">Hours :</h4>
+                <ul type="none">
+                    <li><strong>เปิดทำการทุกวัน : </strong> 9:00 - 15:30 น.</li>
+                </ul>
+                <h4 class="infodecor">Entrance Fee :</h4>
+                <ul type="none">
+                    <li><strong>ผู้ใหญ่ : </strong>200 เยน</li>
+                    <li><strong>เด็ก และ ผู้พิการ : </strong>100 เยน</li>
+                </ul>
+                <h4 class="infodecor"></h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="line">
+        <div>
+            <h1 style="text-align: center;">Reference</h1>
+            <div class="card-container">
+                <div class="card">
+                    <img src="img/image.png" alt="Image" class="card-img">
+                    <div class="card-content">
+                        <h2 class="card-title">Kiji Life</h2>
+                        <a href="https://kiji.life/miyagi-checklist/" class="card-link card-link-bg" target="_blank">Go to webside</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/logo.svg" alt="Image" class="card-img">
+                    <div class="card-content">
+                        <h2 class="card-title">Fun Japan</h2>
+                        <a href="https://www.fun-japan.jp/th/articles/9851" class="card-link card-link-bg" target="_blank">Go to webside</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/rakuten.png" alt="Image" class="card-img">
+                    <div class="card-content">
+                        <h2 class="card-title">Rakuten Travel</h2>
+                        <a href="https://travel.rakuten.com/contents/tha/th-th/guide/spot-miyagi/" class="card-link card-link-bg" target="_blank">Go to webside</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/fromjapan.png" alt="Image" class="card-img">
+                    <div class="card-content">
+                        <h2 class="card-title">From Japan</h2>
+                        <a href="https://fromjapan.info/th/prefecture-miyagi/" class="card-link card-link-bg" target="_blank">Go to webside</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<footer id="footer">
+    <p style="color: white; text-align: center;">© Copyright 2024 by Prapavarin Phormpat. All rights reserved.</p>   
+</footer>
+</body>
+</html>

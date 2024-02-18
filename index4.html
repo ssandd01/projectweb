@@ -1,12 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="ph.prapavairn_st@tni.ac.th">
     <meta name="keyword" content="miyagi, japan, city, sendai">
+    <link rel="shortcut icon" href="./img/fuji.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Travel in Miyagi</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/respondsive.css">
+    <script src="/js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -14,20 +20,42 @@
             <div class="container">
                 <div class="nav-wrapper">
                     <div class="logo logotext"><p>Culture of Miyagi</p></div>
-                    <ul class="menu">
+                    <ul class="menu" id="myMenu">
                         <li><a href="index.html">About</a></li>
                         <li><a href="index2.html">Travel</a></li>
                         <li><a href="index3.html">Food</a></li>
                         <li><a href="index4.html">Culture</a></li>
                     </ul>
+                    <button class="hamburger">
+                        <div class="bar"></div>
+                    </button>
                 </div>
             </div>
         </nav>
     </header>
+    <nav class="respondsive-menu">
+        <h1>Menu</h1>
+        <a href="index.html">About</a>
+        <a href="index2.html">Travel</a>
+        <a href="index3.html">Food</a>
+        <a href="index4.html">Culture</a>
+    </nav>
     <div>
-        <div class="img1">
+        <div class="imghead">
             <div class="text1 texthead">
                 Miyagi Prefecture
             </div>
         </div>
     </div>
+
+    <section class="line">
+        <div>
+            <h1 style="text-align: center;">Reference</h1>
+
+        </div>
+    </section>
+<footer id="footer">
+    <p style="color: white; text-align: center;">© Copyright 2024 by Prapavarin Phormpat. All rights reserved.</p>   
+</footer>
+</body>
+</html>
