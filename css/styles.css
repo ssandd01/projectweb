@@ -107,7 +107,6 @@
     box-shadow: #333 0 0 30px 5px;
 }
 
-
 .respondsive-menu a {
 	display: block;
 	width: 100%;
@@ -115,6 +114,7 @@
     font-size: 25px;
 	max-width: 200px;
 	text-align: center;
+    align-items: center;
 	padding: 12px 16px;
 	color: black;
 	text-decoration: none;
@@ -190,6 +190,11 @@ h2{
 
 #box2{
     border-left: 10px solid #ffa954;
+    margin: 1% 5%;
+}
+
+#box3{
+    border-left: 10px solid #77ffab;
     margin: 1% 5%;
 }
 
@@ -346,6 +351,7 @@ section{
 }
 
 .hiddeninfo-decor{
+    margin-left: 15rem;
     font-family: "Chakra Petch", sans-serif;
     border: none;
     box-shadow: 4px 5px 10px gray;
